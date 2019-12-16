@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+FILING STATION
+
+list of internal states:
+
+*do nothing - null state, only wait on user event
+*print label - print label only if the enable bit variable is true and the index of chemicals is set (>0 and <=10)
+*scan label - scan of new data is identify by bit variable NDR inside the scanner PtP structure and the data are stored inside variable scanned_data inside FS_datablock structure
+*save application bottle to database
+*funnel up/down - funnel down only if the bottle is under the funnel and the enable bit variable is true -> funnel_up_down = funnel_bottle_presence_sensor and funle_enable
+*identify shaker index - function identify the shaker index where was the new bottle inserted and save it to the output variable, function identify the index by checkyng state of bottle presence sensor, when was state of bottle peresence sensor false and now is true then the was the bottle inserted, function is actived only if the hmi set up the enable bit variable -> insert_index = bottle_presence_sensor_index = true and bottle_presence_sensor_index_pre = false
+*shaker door enable - lock the shaker door only if the door are close, bottle is in the shaker and the enable bit variable is true -> shaker_door = door_position and shaker_bottle_presence_sensor and shaker_door_lock_enable
+*time expiration of bottles inside shaker - time expiration is actived only if the variable time +x is higher than variable time, then is set up the variable shaker_door_lock_enable to false and the door is unlocked -> if (time > time+x) and shaker_door_enable then shaker_door_enable := false end_if;
+
+
+
+

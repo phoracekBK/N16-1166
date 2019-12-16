@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="drawing.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4635"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ff0000;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4926"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4924"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4898"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4896"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4617"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4635-5"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-8"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4635-50"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4635-1"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="-2714.9717"
+     inkscape:cy="-570.20724"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.23698497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path8516-6"
+       cx="-581.00708"
+       cy="-13.211164"
+       r="15.234364"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8417-1"
+       width="149.67093"
+       height="110.64958"
+       x="-604.25952"
+       y="-17.298122"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8419-3"
+       width="54.42857"
+       height="30.238094"
+       x="-590.31659"
+       y="55.016117"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.14776111;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8421-6"
+       width="13.607141"
+       height="96.761902"
+       x="-454.58859"
+       y="-17.298122"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.14776111;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8421-8-6"
+       width="13.607141"
+       height="96.761902"
+       x="-617.8667"
+       y="-17.298122"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1.13404369;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8438-2"
+       width="11.72642"
+       height="11.339286"
+       x="-453.74731"
+       y="65.856628"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:none;stroke-width:1.13404369;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8438-8-2"
+       width="11.72642"
+       height="11.339286"
+       x="-616.8786"
+       y="65.856628"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g8512-5"
+       transform="translate(-307.59038,-129.34761)"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="151.93478"
+         x="-179.3777"
+         height="24.946428"
+         width="18.142857"
+         id="rect8455-1"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="140.87898"
+         x="-175.03096"
+         height="36.002232"
+         width="9.4493895"
+         id="rect8457-8"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.37830055;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect8457-6-48"
+         d="m -175.03096,145.22571 h 9.44939 l 4.34672,6.70907 h -18.14285 z"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.07369316;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g8480-7-8"
+       transform="matrix(1,0,0,-1,-219.06859,65.677171)"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="33.267113"
+         x="-304.45984"
+         height="24.946428"
+         width="18.142857"
+         id="rect8455-8-5"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="22.211309"
+         x="-300.1131"
+         height="36.002232"
+         width="9.4493895"
+         id="rect8457-9-9"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.37830055;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect8457-6-4-2"
+         d="m -300.1131,26.558036 h 9.44939 l 4.34672,6.709077 h -18.14285 z"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.07369316;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <circle
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.23698497;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path8516-4"
+       cx="-341.26636"
+       cy="182.6974"
+       r="15.234364"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8417-5"
+       width="149.67093"
+       height="110.64958"
+       x="-364.5188"
+       y="178.61044"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8419-6"
+       width="54.42857"
+       height="30.238094"
+       x="-350.57584"
+       y="250.92468"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.14776111;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8421-9"
+       width="13.607141"
+       height="96.761902"
+       x="-214.84785"
+       y="178.61044"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.14776111;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8421-8-7"
+       width="13.607141"
+       height="96.761902"
+       x="-378.12595"
+       y="178.61044"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1.13404369;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8438-0"
+       width="11.72642"
+       height="11.339286"
+       x="-213.90257"
+       y="262.36261"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:none;stroke-width:1.13404369;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8438-8-5"
+       width="11.72642"
+       height="11.339286"
+       x="-377.05685"
+       y="262.36261"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g8512-1"
+       transform="translate(-67.849619,66.560949)"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="151.93478"
+         x="-179.3777"
+         height="24.946428"
+         width="18.142857"
+         id="rect8455-9"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="140.87898"
+         x="-175.03096"
+         height="36.002232"
+         width="9.4493895"
+         id="rect8457-95"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.37830055;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect8457-6-7"
+         d="m -175.03096,145.22571 h 9.44939 l 4.34672,6.70907 h -18.14285 z"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.07369316;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g8480-7-1"
+       transform="matrix(-1,0,0,1,-570.10465,185.22862)"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="33.267113"
+         x="-304.45984"
+         height="24.946428"
+         width="18.142857"
+         id="rect8455-8-1"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="22.211309"
+         x="-300.1131"
+         height="36.002232"
+         width="9.4493895"
+         id="rect8457-9-98"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.37830055;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect8457-6-4-6"
+         d="m -300.1131,26.558036 h 9.44939 l 4.34672,6.709077 h -18.14285 z"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.07369316;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <circle
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.23698509;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path8516-6-8"
+       cx="-314.10117"
+       cy="-26.724503"
+       r="15.234364"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.454;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8417-1-9"
+       width="149.67093"
+       height="110.64958"
+       x="-337.35361"
+       y="-30.81146"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.454;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8419-3-9"
+       width="54.42857"
+       height="30.238094"
+       x="-323.41068"
+       y="41.502781"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.14776111;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8421-6-5"
+       width="13.607141"
+       height="96.761902"
+       x="-187.68268"
+       y="-30.81146"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.14776111;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8421-8-6-1"
+       width="13.607141"
+       height="96.761902"
+       x="-350.96078"
+       y="-30.81146"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1.13404369;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8438-2-1"
+       width="11.72642"
+       height="11.339286"
+       x="-186.8414"
+       y="52.343288"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:none;stroke-width:1.13404369;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8438-8-2-0"
+       width="11.72642"
+       height="11.339286"
+       x="-349.97269"
+       y="52.343288"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g8512-5-2"
+       transform="translate(-40.684465,-142.86095)"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="151.93478"
+         x="-179.3777"
+         height="24.946428"
+         width="18.142857"
+         id="rect8455-1-9"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="140.87898"
+         x="-175.03096"
+         height="36.002232"
+         width="9.4493895"
+         id="rect8457-8-6"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.37830055;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect8457-6-48-9"
+         d="m -175.03096,145.22571 h 9.44939 l 4.34672,6.70907 h -18.14285 z"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.07369316;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g8480-7-8-0"
+       transform="matrix(1,0,0,-1,47.837345,52.163833)"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="33.267113"
+         x="-304.45984"
+         height="24.946428"
+         width="18.142857"
+         id="rect8455-8-5-7"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="22.211309"
+         x="-300.1131"
+         height="36.002232"
+         width="9.4493895"
+         id="rect8457-9-9-9"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.37830055;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect8457-6-4-2-6"
+         d="m -300.1131,26.558036 h 9.44939 l 4.34672,6.709077 h -18.14285 z"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.07369316;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <circle
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.23698509;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path8516-4-4"
+       cx="-335.30835"
+       cy="402.35776"
+       r="15.234364"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.454;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8417-5-4"
+       width="149.67093"
+       height="110.64958"
+       x="-358.56079"
+       y="398.27078"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.454;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8419-6-0"
+       width="54.42857"
+       height="30.238094"
+       x="-344.61783"
+       y="470.58502"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.14776111;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8421-9-4"
+       width="13.607141"
+       height="96.761902"
+       x="-208.88985"
+       y="398.27078"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1.14776111;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8421-8-7-7"
+       width="13.607141"
+       height="96.761902"
+       x="-372.16794"
+       y="398.27078"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1.13404369;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8438-0-6"
+       width="11.72642"
+       height="11.339286"
+       x="-207.94458"
+       y="482.02295"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:none;stroke-width:1.13404369;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8438-8-5-9"
+       width="11.72642"
+       height="11.339286"
+       x="-371.09885"
+       y="482.02295"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <g
+       id="g8512-1-2"
+       transform="translate(-61.891624,286.22129)"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="151.93478"
+         x="-179.3777"
+         height="24.946428"
+         width="18.142857"
+         id="rect8455-9-2"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="140.87898"
+         x="-175.03096"
+         height="36.002232"
+         width="9.4493895"
+         id="rect8457-95-3"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.37830055;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect8457-6-7-2"
+         d="m -175.03096,145.22571 h 9.44939 l 4.34672,6.70907 h -18.14285 z"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.07369316;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g8480-7-1-5"
+       transform="matrix(-1,0,0,1,-564.14664,404.88896)"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         y="33.267113"
+         x="-304.45984"
+         height="24.946428"
+         width="18.142857"
+         id="rect8455-8-1-9"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.45399988;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="22.211309"
+         x="-300.1131"
+         height="36.002232"
+         width="9.4493895"
+         id="rect8457-9-98-0"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.37830055;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect8457-6-4-6-5"
+         d="m -300.1131,26.558036 h 9.44939 l 4.34672,6.709077 h -18.14285 z"
+         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:1.07369316;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:2.46499991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m -668.3271,73.115915 h 40.89222"
+       id="path117"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:2.46499991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-2)"
+       d="m -120.68164,58.16247 h -40.89222"
+       id="path117-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa30_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:2.46499991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-8)"
+       d="m -433.49462,268.74497 h 40.89222"
+       id="path117-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_left.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:2.46499991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-0)"
+       d="m -140.75685,487.14817 h -40.89222"
+       id="path117-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Siemens\workpace\N16-1166-5\img\felt_pa10b_right.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+</svg>

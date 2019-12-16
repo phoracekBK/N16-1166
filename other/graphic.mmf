@@ -1,0 +1,10 @@
+[CARD]
+SlotID=1
+OrgName=D:\Siemens\workpace\N16-1166-5\other\graphic.mmf
+CardSize=16384000
+Description=
+FontIndex=0
+BmpIndex=0
+FontPlugin=ZEBRADL
+GraphicsPlugin=ZEBRADL
+UnicodeProportTables=0

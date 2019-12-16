@@ -1,0 +1,65 @@
+
+*slovník
+//abychom si vzájemně rozumněli
+primer - chemikálie pro zvýšení adheze
+activator - chemikálie pro aktivaci primeru
+remover - chemikálie pro očištění povrchu před nanesením aktivátoru a primeru
+PA10 - statnice pro vyčištění povrchu a nanesení primeru
+PA30 - stanice pro nanesení primeru
+PA50 - stanice pro aplikaci ochranné lepící pásky
+PA60 - stanice pro aplikaci těsnění a tisk kontrolních štítků
+primerbox - stanice s uloženými lahvičkami s chemikáliemi, ubrousky a pěnovými houbičkami
+pad - pěnová nebo filcová houbička umístěná na lahvičce s chemikáliemi, které slouží k aplikaci dané chemikálie na plastový rám
+felt - ubrousek pro utření dané chemikálie
+station state - vnitřní stav stanice - OK, fail, big fail, error, fatal error
+valve error handler - podprogram pro kontrolu žádaného stavu uzamikácích pístů
+bottle light control - podprogram pro hlídání stavu světelných kontrolek lahviček s chemikáliemi a jejich přítomnost/nepřítomnost v daném stavu pracovního cyklu v primerboxu 
+beacon state control - podprogram, který na základě vnitřního stavu stanice aktivuje/deaktivuje dané světlo na světelném majáku dané stanice
+siren pulsing handler - v případě vnitřního stavu big fail a fatal error tento podprogram aktivuje pulzující aktustickou sirénu 
+felt light control - podprogram, který se stará o přítomnost ubrousků v primerboxu
+print label - podprogram, který z předaných parametrů vygeneruje data, která jsou následně vytištěna na štítek na stanici PA60 (výstup z procesu)
+lock axis - podprogram, který umožňuje podle předaných parametrů uzamknout nebo odemknout daný záme
+set position - podprogram pro hlídání polohy otočného rámu pozice a v případě, že rám dosáhne požadované pozice, uzamkne zámky
+start station - podprogram pro aktivaci dané stanice
+work cyclus state control variable - proměnná pro kontrolu stavu pracovního cyklu
+frame state control variable - proměnná, která hlídá index do datové struktury pro ukládání dat na dané stanici
+
+
+
+//stanice PA20(B)
+blend - název (odkaz na) bledy se kterými se manipuluje na stanicích PA10(B) a PA20(B)
+curing rack - šuplík ve stanici PA20(B) do kterého jsou ukládány blendy poté co jsou na stanici PA10(B) natřeby primerem, v tomto šuplíku čekají 10 minut na vytvrzení
+B1 a B2 - tlačítka, kterými se uzamyká curing rack
+B3 - tlačítko na odemčení šuplíku pro vyjmutí blend
+
+*funkční popis
+//abych věděl co programovat a mohl odhadnout jak dlouho to bude trvat
+
+//Stanice PA20(B)
+Po ukončení pracovního cyklu na stanici PA10(B) je kontrolováno zda není fronta s blendy plná, pokud se ve frontě nenachází více jak 5 blend nemůže dojít k posunutí caring rack směrem dolů -> světelné kontrolky tlačítek B1 a B2 neblikají, v opačném případě se rozblikají kontrolky na tlačítkách - > čeká se na jejich současné stisknutí
+Po vložení blend se očekává stisknutí tlačítek B1 a B2 současně -> dojde k posunutí caring rack směrem dolů
+Po uzamčení caring rack dojde k posunutí blend o jednu pozici směrem dolů (dojde k deaktivaci a následné aktivaci indukčního čidla indikující pozici caring rack pro vložení blend)
+Po posunutí caring rack dojde dále k nastavení časovače na x sekund do frontové datové struktury (tato hodnota je každou vteřinu dekrementována na pozadí PLC)
+Potom co caring rack dojede až na konec fronty a zároveň uplyne expirační doba rozbliká se světelná kontrolka tlačítka B3, v opačném případě se čeká dokud nevyprchá expirace blendy na konci fronty
+Potom co se stiskne tlačítko B3 dojde k odemčení šuplíku a pomocí pneumatického pístu je otevřen
+V případě, že je šuplík odemčen, nesmí dojít k posunutí caring rack z bezpečnostních důvodů aby nedošlo ke zranení obsluhy
+Šuplík nesmí být odemčen v případě, že se caring rack posouvá
+
+
+
+//filing station
+V HMI je seznam tlačítek s názvy chemikálií, které se plní ve filing station, počáteční krok je stisk tlačítka s názvem dané chemikálie -> požadavek o tisk štítku s popisem typu chemikálie, času kdy byl požadavek vydán a příznak že jde o dodavatelskou lahvičku, štítek se nalepí na dodavatelskou lahvičku
+V HMI je tlačítko kterým si operátor vyžádá vložení dodavatelské lahvičky do shakeru -> naskenovat štítek lahvičky, která se vloží do shakeru, aby se určila minimální doba nutná pro protřepání lahvičky s danou chemikálií. 
+Po naskenování může operátor vložit dodavatelskou lahvičku do shakeru, v každém shakeru (4 úložná lůžka) je senzor pro detekci přítomnosti lahvičky (je nutné propojit daný shaker s vloženou lahvičkou).
+
+
+*termíny
+//kolik času na to reálně mám
+19.6. inspekce z rumunska
+
+*časový plán
+//na základě funkčního popisu a důležitých tetrmínů můžu celou práci rozvrhnout
+9.6. - připravena struktura programu a otestované podprogramy pro filing station
+14.6. - pripravena struktura programu a otestované podprogramy pro stanici PA10(B)
+23.6. - stanice PA10(B) a PA20(B) v provozu
+

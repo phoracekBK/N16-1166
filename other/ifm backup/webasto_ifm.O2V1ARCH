@@ -1,0 +1,1684 @@
+<?xml version="1.0"?>
+<sensor classname="sensor">
+  <sensor_name>UEEyMC1MRUZU</sensor_name>
+  <sensor_location>UEEyMA==</sensor_location>
+  <sensor_description />
+  <sensor_state>monitor</sensor_state>
+  <sensor_application_switch>off</sensor_application_switch>
+  <sensor_trigger_debouncing>off</sensor_trigger_debouncing>
+  <sensor_ip_info_def classname="sensor_ip_info">
+    <sensor_ip_address_mode>user_defined_ip</sensor_ip_address_mode>
+    <sensor_ip_address_user_defined_def classname="sensor_ip_address_user_defined">
+      <sensor_ip_address_v4>192.168.0.135</sensor_ip_address_v4>
+      <sensor_gateway_address_v4>192.168.0.201</sensor_gateway_address_v4>
+      <sensor_subnet_mask_v4>255.255.255.0</sensor_subnet_mask_v4>
+    </sensor_ip_address_user_defined_def>
+  </sensor_ip_info_def>
+  <sensor_parametrization_port>8080</sensor_parametrization_port>
+  <sensor_video_port>50002</sensor_video_port>
+  <sensor_speed_and_duplex>autonegotiation</sensor_speed_and_duplex>
+  <sensor_pcic_version>V2.0</sensor_pcic_version>
+  <sensor_pcic_parameters_def classname="sensor_pcic_parameters">
+    <sensor_pcic_mode>sensor_pcic_mode_tcpip</sensor_pcic_mode>
+    <sensor_pcic_tcp_parms_def classname="sensor_pcic_tcp_parms">
+      <sensor_pcic_tcpip_port>50010</sensor_pcic_tcpip_port>
+    </sensor_pcic_tcp_parms_def>
+    <sensor_pcic_ethernet_ip_parms_def classname="sensor_pcic_ethernet_ip_parms">
+      <sensor_pcic_enetip_assembly_length>450</sensor_pcic_enetip_assembly_length>
+      <sensor_pcic_enetip_use_segmentation>no</sensor_pcic_enetip_use_segmentation>
+      <sensor_pcic_ethernet_ip_segmentation_def classname="sensor_pcic_ethernet_ip_segmentation">
+        <sensor_pcic_enetip_segments_control_reply>off</sensor_pcic_enetip_segments_control_reply>
+        <sensor_pcic_enetip_segments_control_decoding>off</sensor_pcic_enetip_segments_control_decoding>
+        <sensor_pcic_enetip_segments_control_status>off</sensor_pcic_enetip_segments_control_status>
+        <sensor_pcic_enetip_segments_list islist="yes">
+          <sensor_pcic_ethernet_ip_segmentation_segment classname="sensor_pcic_ethernet_ip_segmentation_segment">
+            <sensor_pcic_enetip_segment_id>1</sensor_pcic_enetip_segment_id>
+            <sensor_pcic_enetip_segment_offset>0</sensor_pcic_enetip_segment_offset>
+            <sensor_pcic_enetip_segment_length>450</sensor_pcic_enetip_segment_length>
+          </sensor_pcic_ethernet_ip_segmentation_segment>
+        </sensor_pcic_enetip_segments_list>
+      </sensor_pcic_ethernet_ip_segmentation_def>
+    </sensor_pcic_ethernet_ip_parms_def>
+  </sensor_pcic_parameters_def>
+  <sensor_display_mode>normal</sensor_display_mode>
+  <teachmenu_lock_modus>1</teachmenu_lock_modus>
+  <sensor_performance_boost>off</sensor_performance_boost>
+  <sensor_application_list islist="yes">
+    <cApplication classname="cApplication">
+      <application_id>1</application_id>
+      <application_version>5050</application_version>
+      <application_name>Sk9CMV9GQTIwX0xFRlQ=</application_name>
+      <application_active>yes</application_active>
+      <exposure_time_us>7067</exposure_time_us>
+      <illumination_segments>15</illumination_segments>
+      <illumination_source>both_off</illumination_source>
+      <imager_characteristic>linear</imager_characteristic>
+      <black_level_average>off</black_level_average>
+      <trigger>continuous</trigger>
+      <model_list islist="yes">
+        <model classname="model">
+          <model_id>1</model_id>
+          <model_name>TW9kZWxsMDE=</model_name>
+          <segmentation_def classname="segmentation">
+            <segmentation_mode>segmentation_threshold</segmentation_mode>
+            <segmentation_threshold_def classname="segmentation_threshold">
+              <threshold_upper>255</threshold_upper>
+              <threshold_lower>90</threshold_lower>
+              <threshold_add_objects>yes</threshold_add_objects>
+            </segmentation_threshold_def>
+            <segmentation_region_def classname="segmentation_region">
+              <region_growing_dimension>3x3</region_growing_dimension>
+              <region_growing_tolerance>6.0</region_growing_tolerance>
+            </segmentation_region_def>
+          </segmentation_def>
+          <exclude_objects_def classname="exclude_objects">
+            <exclude_objects_mode>both</exclude_objects_mode>
+            <min_object_size>250</min_object_size>
+            <max_object_size>307200</max_object_size>
+          </exclude_objects_def>
+          <areas_list islist="yes">
+            <area_ellipse classname="area_ellipse">
+              <area_id>0</area_id>
+              <domain_operation>included</domain_operation>
+              <row>260</row>
+              <column>488</column>
+              <diameter_x>107</diameter_x>
+              <diameter_y>50</diameter_y>
+            </area_ellipse>
+          </areas_list>
+          <fillholes classname="fill_holes">
+            <fill_holes_mode>deactivated</fill_holes_mode>
+            <fillholes_abs_def classname="fillholes_abs">
+              <min_value_fill_abs>250</min_value_fill_abs>
+            </fillholes_abs_def>
+            <fillholes_perc_def classname="fillholes_perc">
+              <min_value_fill_perc>10</min_value_fill_perc>
+            </fillholes_perc_def>
+          </fillholes>
+          <eliminate_rand_objects>off</eliminate_rand_objects>
+          <eliminate_background_objects>off</eliminate_background_objects>
+          <filter_list islist="yes" />
+          <criteria_list_def classname="criteria_list">
+            <criteria_list_mode>object_criteria_list</criteria_list_mode>
+            <object_criteria_list_def classname="object_criteria_list">
+              <area_def classname="area">
+                <feature_used>yes</feature_used>
+                <feature_min_val>150</feature_min_val>
+                <feature_max_val>307200</feature_max_val>
+              </area_def>
+              <x_position_def classname="x_position">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </x_position_def>
+              <y_position_def classname="y_position">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </y_position_def>
+              <height_def classname="height">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </height_def>
+              <width_def classname="width">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>500</feature_max_val>
+              </width_def>
+              <circularity_def classname="circularity">
+                <feature_used>no</feature_used>
+                <feature_min_val>75</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </circularity_def>
+              <compactness_def classname="compactness">
+                <feature_used>no</feature_used>
+                <feature_min_val>1500</feature_min_val>
+                <feature_max_val>2750</feature_max_val>
+              </compactness_def>
+              <rectangularity_def classname="rectangularity">
+                <feature_used>no</feature_used>
+                <feature_min_val>75</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </rectangularity_def>
+              <outer_radius_def classname="outer_radius">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </outer_radius_def>
+              <inner_radius_def classname="inner_radius">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_radius_def>
+              <inner_width_def classname="inner_width">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_width_def>
+              <inner_height_def classname="inner_height">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_height_def>
+              <holes_num_def classname="holes_num">
+                <feature_used>no</feature_used>
+                <feature_min_val>5</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </holes_num_def>
+              <orientation_def classname="orientation">
+                <feature_used>no</feature_used>
+                <feature_min_val>-10</feature_min_val>
+                <feature_max_val>10</feature_max_val>
+              </orientation_def>
+              <min_grayvalue_def classname="min_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </min_grayvalue_def>
+              <max_grayvalue_def classname="max_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </max_grayvalue_def>
+              <average_grayvalue_def classname="average_grayvalue">
+                <feature_used>yes</feature_used>
+                <feature_min_val>90</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </average_grayvalue_def>
+              <stddev_grayvalue_def classname="stddev_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>0</feature_min_val>
+                <feature_max_val>1000</feature_max_val>
+              </stddev_grayvalue_def>
+            </object_criteria_list_def>
+            <image_criteria_list_def classname="image_criteria_list">
+              <total_area_def classname="total_area">
+                <feature_used>yes</feature_used>
+                <feature_min_val>1</feature_min_val>
+                <feature_max_val>307200</feature_max_val>
+              </total_area_def>
+              <nr_objects_def classname="nr_objects">
+                <feature_used>no</feature_used>
+                <feature_min_val>0</feature_min_val>
+                <feature_max_val>10</feature_max_val>
+              </nr_objects_def>
+            </image_criteria_list_def>
+          </criteria_list_def>
+        </model>
+        <model classname="model">
+          <model_id>2</model_id>
+          <model_name>TW9kZWxsMDI=</model_name>
+          <segmentation_def classname="segmentation">
+            <segmentation_mode>segmentation_threshold</segmentation_mode>
+            <segmentation_threshold_def classname="segmentation_threshold">
+              <threshold_upper>255</threshold_upper>
+              <threshold_lower>90</threshold_lower>
+              <threshold_add_objects>yes</threshold_add_objects>
+            </segmentation_threshold_def>
+            <segmentation_region_def classname="segmentation_region">
+              <region_growing_dimension>3x3</region_growing_dimension>
+              <region_growing_tolerance>6.0</region_growing_tolerance>
+            </segmentation_region_def>
+          </segmentation_def>
+          <exclude_objects_def classname="exclude_objects">
+            <exclude_objects_mode>both</exclude_objects_mode>
+            <min_object_size>250</min_object_size>
+            <max_object_size>307200</max_object_size>
+          </exclude_objects_def>
+          <areas_list islist="yes">
+            <area_ellipse classname="area_ellipse">
+              <area_id>0</area_id>
+              <domain_operation>included</domain_operation>
+              <row>280</row>
+              <column>200</column>
+              <diameter_x>106</diameter_x>
+              <diameter_y>50</diameter_y>
+            </area_ellipse>
+          </areas_list>
+          <fillholes classname="fill_holes">
+            <fill_holes_mode>deactivated</fill_holes_mode>
+            <fillholes_abs_def classname="fillholes_abs">
+              <min_value_fill_abs>250</min_value_fill_abs>
+            </fillholes_abs_def>
+            <fillholes_perc_def classname="fillholes_perc">
+              <min_value_fill_perc>10</min_value_fill_perc>
+            </fillholes_perc_def>
+          </fillholes>
+          <eliminate_rand_objects>off</eliminate_rand_objects>
+          <eliminate_background_objects>off</eliminate_background_objects>
+          <filter_list islist="yes" />
+          <criteria_list_def classname="criteria_list">
+            <criteria_list_mode>object_criteria_list</criteria_list_mode>
+            <object_criteria_list_def classname="object_criteria_list">
+              <area_def classname="area">
+                <feature_used>yes</feature_used>
+                <feature_min_val>150</feature_min_val>
+                <feature_max_val>307200</feature_max_val>
+              </area_def>
+              <x_position_def classname="x_position">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </x_position_def>
+              <y_position_def classname="y_position">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </y_position_def>
+              <height_def classname="height">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </height_def>
+              <width_def classname="width">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>500</feature_max_val>
+              </width_def>
+              <circularity_def classname="circularity">
+                <feature_used>no</feature_used>
+                <feature_min_val>75</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </circularity_def>
+              <compactness_def classname="compactness">
+                <feature_used>no</feature_used>
+                <feature_min_val>1500</feature_min_val>
+                <feature_max_val>2750</feature_max_val>
+              </compactness_def>
+              <rectangularity_def classname="rectangularity">
+                <feature_used>no</feature_used>
+                <feature_min_val>75</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </rectangularity_def>
+              <outer_radius_def classname="outer_radius">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </outer_radius_def>
+              <inner_radius_def classname="inner_radius">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_radius_def>
+              <inner_width_def classname="inner_width">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_width_def>
+              <inner_height_def classname="inner_height">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_height_def>
+              <holes_num_def classname="holes_num">
+                <feature_used>no</feature_used>
+                <feature_min_val>5</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </holes_num_def>
+              <orientation_def classname="orientation">
+                <feature_used>no</feature_used>
+                <feature_min_val>-10</feature_min_val>
+                <feature_max_val>10</feature_max_val>
+              </orientation_def>
+              <min_grayvalue_def classname="min_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </min_grayvalue_def>
+              <max_grayvalue_def classname="max_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </max_grayvalue_def>
+              <average_grayvalue_def classname="average_grayvalue">
+                <feature_used>yes</feature_used>
+                <feature_min_val>90</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </average_grayvalue_def>
+              <stddev_grayvalue_def classname="stddev_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>0</feature_min_val>
+                <feature_max_val>1000</feature_max_val>
+              </stddev_grayvalue_def>
+            </object_criteria_list_def>
+            <image_criteria_list_def classname="image_criteria_list">
+              <total_area_def classname="total_area">
+                <feature_used>yes</feature_used>
+                <feature_min_val>1</feature_min_val>
+                <feature_max_val>307200</feature_max_val>
+              </total_area_def>
+              <nr_objects_def classname="nr_objects">
+                <feature_used>no</feature_used>
+                <feature_min_val>0</feature_min_val>
+                <feature_max_val>10</feature_max_val>
+              </nr_objects_def>
+            </image_criteria_list_def>
+          </criteria_list_def>
+        </model>
+        <model classname="model">
+          <model_id>3</model_id>
+          <model_name>TW9kZWxsMDM=</model_name>
+          <segmentation_def classname="segmentation">
+            <segmentation_mode>segmentation_threshold</segmentation_mode>
+            <segmentation_threshold_def classname="segmentation_threshold">
+              <threshold_upper>255</threshold_upper>
+              <threshold_lower>90</threshold_lower>
+              <threshold_add_objects>yes</threshold_add_objects>
+            </segmentation_threshold_def>
+            <segmentation_region_def classname="segmentation_region">
+              <region_growing_dimension>3x3</region_growing_dimension>
+              <region_growing_tolerance>6.0</region_growing_tolerance>
+            </segmentation_region_def>
+          </segmentation_def>
+          <exclude_objects_def classname="exclude_objects">
+            <exclude_objects_mode>both</exclude_objects_mode>
+            <min_object_size>250</min_object_size>
+            <max_object_size>307200</max_object_size>
+          </exclude_objects_def>
+          <areas_list islist="yes">
+            <area_ellipse classname="area_ellipse">
+              <area_id>0</area_id>
+              <domain_operation>included</domain_operation>
+              <row>171</row>
+              <column>207</column>
+              <diameter_x>116</diameter_x>
+              <diameter_y>45</diameter_y>
+            </area_ellipse>
+          </areas_list>
+          <fillholes classname="fill_holes">
+            <fill_holes_mode>deactivated</fill_holes_mode>
+            <fillholes_abs_def classname="fillholes_abs">
+              <min_value_fill_abs>250</min_value_fill_abs>
+            </fillholes_abs_def>
+            <fillholes_perc_def classname="fillholes_perc">
+              <min_value_fill_perc>10</min_value_fill_perc>
+            </fillholes_perc_def>
+          </fillholes>
+          <eliminate_rand_objects>off</eliminate_rand_objects>
+          <eliminate_background_objects>off</eliminate_background_objects>
+          <filter_list islist="yes" />
+          <criteria_list_def classname="criteria_list">
+            <criteria_list_mode>object_criteria_list</criteria_list_mode>
+            <object_criteria_list_def classname="object_criteria_list">
+              <area_def classname="area">
+                <feature_used>yes</feature_used>
+                <feature_min_val>150</feature_min_val>
+                <feature_max_val>307200</feature_max_val>
+              </area_def>
+              <x_position_def classname="x_position">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </x_position_def>
+              <y_position_def classname="y_position">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </y_position_def>
+              <height_def classname="height">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </height_def>
+              <width_def classname="width">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>500</feature_max_val>
+              </width_def>
+              <circularity_def classname="circularity">
+                <feature_used>no</feature_used>
+                <feature_min_val>75</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </circularity_def>
+              <compactness_def classname="compactness">
+                <feature_used>no</feature_used>
+                <feature_min_val>1500</feature_min_val>
+                <feature_max_val>2750</feature_max_val>
+              </compactness_def>
+              <rectangularity_def classname="rectangularity">
+                <feature_used>no</feature_used>
+                <feature_min_val>75</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </rectangularity_def>
+              <outer_radius_def classname="outer_radius">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </outer_radius_def>
+              <inner_radius_def classname="inner_radius">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_radius_def>
+              <inner_width_def classname="inner_width">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_width_def>
+              <inner_height_def classname="inner_height">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_height_def>
+              <holes_num_def classname="holes_num">
+                <feature_used>no</feature_used>
+                <feature_min_val>5</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </holes_num_def>
+              <orientation_def classname="orientation">
+                <feature_used>no</feature_used>
+                <feature_min_val>-10</feature_min_val>
+                <feature_max_val>10</feature_max_val>
+              </orientation_def>
+              <min_grayvalue_def classname="min_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </min_grayvalue_def>
+              <max_grayvalue_def classname="max_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </max_grayvalue_def>
+              <average_grayvalue_def classname="average_grayvalue">
+                <feature_used>yes</feature_used>
+                <feature_min_val>90</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </average_grayvalue_def>
+              <stddev_grayvalue_def classname="stddev_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>0</feature_min_val>
+                <feature_max_val>1000</feature_max_val>
+              </stddev_grayvalue_def>
+            </object_criteria_list_def>
+            <image_criteria_list_def classname="image_criteria_list">
+              <total_area_def classname="total_area">
+                <feature_used>yes</feature_used>
+                <feature_min_val>1</feature_min_val>
+                <feature_max_val>307200</feature_max_val>
+              </total_area_def>
+              <nr_objects_def classname="nr_objects">
+                <feature_used>no</feature_used>
+                <feature_min_val>0</feature_min_val>
+                <feature_max_val>10</feature_max_val>
+              </nr_objects_def>
+            </image_criteria_list_def>
+          </criteria_list_def>
+        </model>
+        <model classname="model">
+          <model_id>4</model_id>
+          <model_name>TW9kZWxsMDQ=</model_name>
+          <segmentation_def classname="segmentation">
+            <segmentation_mode>segmentation_threshold</segmentation_mode>
+            <segmentation_threshold_def classname="segmentation_threshold">
+              <threshold_upper>255</threshold_upper>
+              <threshold_lower>90</threshold_lower>
+              <threshold_add_objects>yes</threshold_add_objects>
+            </segmentation_threshold_def>
+            <segmentation_region_def classname="segmentation_region">
+              <region_growing_dimension>3x3</region_growing_dimension>
+              <region_growing_tolerance>6.0</region_growing_tolerance>
+            </segmentation_region_def>
+          </segmentation_def>
+          <exclude_objects_def classname="exclude_objects">
+            <exclude_objects_mode>both</exclude_objects_mode>
+            <min_object_size>250</min_object_size>
+            <max_object_size>307200</max_object_size>
+          </exclude_objects_def>
+          <areas_list islist="yes">
+            <area_ellipse classname="area_ellipse">
+              <area_id>0</area_id>
+              <domain_operation>included</domain_operation>
+              <row>161</row>
+              <column>475</column>
+              <diameter_x>108</diameter_x>
+              <diameter_y>57</diameter_y>
+            </area_ellipse>
+          </areas_list>
+          <fillholes classname="fill_holes">
+            <fill_holes_mode>deactivated</fill_holes_mode>
+            <fillholes_abs_def classname="fillholes_abs">
+              <min_value_fill_abs>250</min_value_fill_abs>
+            </fillholes_abs_def>
+            <fillholes_perc_def classname="fillholes_perc">
+              <min_value_fill_perc>10</min_value_fill_perc>
+            </fillholes_perc_def>
+          </fillholes>
+          <eliminate_rand_objects>off</eliminate_rand_objects>
+          <eliminate_background_objects>off</eliminate_background_objects>
+          <filter_list islist="yes" />
+          <criteria_list_def classname="criteria_list">
+            <criteria_list_mode>object_criteria_list</criteria_list_mode>
+            <object_criteria_list_def classname="object_criteria_list">
+              <area_def classname="area">
+                <feature_used>yes</feature_used>
+                <feature_min_val>150</feature_min_val>
+                <feature_max_val>307200</feature_max_val>
+              </area_def>
+              <x_position_def classname="x_position">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </x_position_def>
+              <y_position_def classname="y_position">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </y_position_def>
+              <height_def classname="height">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </height_def>
+              <width_def classname="width">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>500</feature_max_val>
+              </width_def>
+              <circularity_def classname="circularity">
+                <feature_used>no</feature_used>
+                <feature_min_val>75</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </circularity_def>
+              <compactness_def classname="compactness">
+                <feature_used>no</feature_used>
+                <feature_min_val>1500</feature_min_val>
+                <feature_max_val>2750</feature_max_val>
+              </compactness_def>
+              <rectangularity_def classname="rectangularity">
+                <feature_used>no</feature_used>
+                <feature_min_val>75</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </rectangularity_def>
+              <outer_radius_def classname="outer_radius">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </outer_radius_def>
+              <inner_radius_def classname="inner_radius">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_radius_def>
+              <inner_width_def classname="inner_width">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_width_def>
+              <inner_height_def classname="inner_height">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_height_def>
+              <holes_num_def classname="holes_num">
+                <feature_used>no</feature_used>
+                <feature_min_val>5</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </holes_num_def>
+              <orientation_def classname="orientation">
+                <feature_used>no</feature_used>
+                <feature_min_val>-10</feature_min_val>
+                <feature_max_val>10</feature_max_val>
+              </orientation_def>
+              <min_grayvalue_def classname="min_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </min_grayvalue_def>
+              <max_grayvalue_def classname="max_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </max_grayvalue_def>
+              <average_grayvalue_def classname="average_grayvalue">
+                <feature_used>yes</feature_used>
+                <feature_min_val>90</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </average_grayvalue_def>
+              <stddev_grayvalue_def classname="stddev_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>0</feature_min_val>
+                <feature_max_val>1000</feature_max_val>
+              </stddev_grayvalue_def>
+            </object_criteria_list_def>
+            <image_criteria_list_def classname="image_criteria_list">
+              <total_area_def classname="total_area">
+                <feature_used>yes</feature_used>
+                <feature_min_val>1</feature_min_val>
+                <feature_max_val>307200</feature_max_val>
+              </total_area_def>
+              <nr_objects_def classname="nr_objects">
+                <feature_used>no</feature_used>
+                <feature_min_val>0</feature_min_val>
+                <feature_max_val>10</feature_max_val>
+              </nr_objects_def>
+            </image_criteria_list_def>
+          </criteria_list_def>
+        </model>
+        <model classname="model">
+          <model_id>5</model_id>
+          <model_name>TW9kZWxsMDU=</model_name>
+          <segmentation_def classname="segmentation">
+            <segmentation_mode>segmentation_threshold</segmentation_mode>
+            <segmentation_threshold_def classname="segmentation_threshold">
+              <threshold_upper>255</threshold_upper>
+              <threshold_lower>90</threshold_lower>
+              <threshold_add_objects>yes</threshold_add_objects>
+            </segmentation_threshold_def>
+            <segmentation_region_def classname="segmentation_region">
+              <region_growing_dimension>3x3</region_growing_dimension>
+              <region_growing_tolerance>6.0</region_growing_tolerance>
+            </segmentation_region_def>
+          </segmentation_def>
+          <exclude_objects_def classname="exclude_objects">
+            <exclude_objects_mode>both</exclude_objects_mode>
+            <min_object_size>250</min_object_size>
+            <max_object_size>307200</max_object_size>
+          </exclude_objects_def>
+          <areas_list islist="yes">
+            <area_ellipse classname="area_ellipse">
+              <area_id>0</area_id>
+              <domain_operation>included</domain_operation>
+              <row>215</row>
+              <column>459</column>
+              <diameter_x>125</diameter_x>
+              <diameter_y>45</diameter_y>
+            </area_ellipse>
+          </areas_list>
+          <fillholes classname="fill_holes">
+            <fill_holes_mode>deactivated</fill_holes_mode>
+            <fillholes_abs_def classname="fillholes_abs">
+              <min_value_fill_abs>250</min_value_fill_abs>
+            </fillholes_abs_def>
+            <fillholes_perc_def classname="fillholes_perc">
+              <min_value_fill_perc>10</min_value_fill_perc>
+            </fillholes_perc_def>
+          </fillholes>
+          <eliminate_rand_objects>off</eliminate_rand_objects>
+          <eliminate_background_objects>off</eliminate_background_objects>
+          <filter_list islist="yes" />
+          <criteria_list_def classname="criteria_list">
+            <criteria_list_mode>object_criteria_list</criteria_list_mode>
+            <object_criteria_list_def classname="object_criteria_list">
+              <area_def classname="area">
+                <feature_used>yes</feature_used>
+                <feature_min_val>150</feature_min_val>
+                <feature_max_val>307200</feature_max_val>
+              </area_def>
+              <x_position_def classname="x_position">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </x_position_def>
+              <y_position_def classname="y_position">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </y_position_def>
+              <height_def classname="height">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </height_def>
+              <width_def classname="width">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>500</feature_max_val>
+              </width_def>
+              <circularity_def classname="circularity">
+                <feature_used>no</feature_used>
+                <feature_min_val>75</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </circularity_def>
+              <compactness_def classname="compactness">
+                <feature_used>no</feature_used>
+                <feature_min_val>1500</feature_min_val>
+                <feature_max_val>2750</feature_max_val>
+              </compactness_def>
+              <rectangularity_def classname="rectangularity">
+                <feature_used>no</feature_used>
+                <feature_min_val>75</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </rectangularity_def>
+              <outer_radius_def classname="outer_radius">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </outer_radius_def>
+              <inner_radius_def classname="inner_radius">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_radius_def>
+              <inner_width_def classname="inner_width">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_width_def>
+              <inner_height_def classname="inner_height">
+                <feature_used>no</feature_used>
+                <feature_min_val>100</feature_min_val>
+                <feature_max_val>400</feature_max_val>
+              </inner_height_def>
+              <holes_num_def classname="holes_num">
+                <feature_used>no</feature_used>
+                <feature_min_val>5</feature_min_val>
+                <feature_max_val>100</feature_max_val>
+              </holes_num_def>
+              <orientation_def classname="orientation">
+                <feature_used>no</feature_used>
+                <feature_min_val>-10</feature_min_val>
+                <feature_max_val>10</feature_max_val>
+              </orientation_def>
+              <min_grayvalue_def classname="min_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </min_grayvalue_def>
+              <max_grayvalue_def classname="max_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>200</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </max_grayvalue_def>
+              <average_grayvalue_def classname="average_grayvalue">
+                <feature_used>yes</feature_used>
+                <feature_min_val>90</feature_min_val>
+                <feature_max_val>255</feature_max_val>
+              </average_grayvalue_def>
+              <stddev_grayvalue_def classname="stddev_grayvalue">
+                <feature_used>no</feature_used>
+                <feature_min_val>0</feature_min_val>
+                <feature_max_val>1000</feature_max_val>
+              </stddev_grayvalue_def>
+            </object_criteria_list_def>
+            <image_criteria_list_def classname="image_criteria_list">
+              <total_area_def classname="total_area">
+                <feature_used>yes</feature_used>
+                <feature_min_val>1</feature_min_val>
+                <feature_max_val>307200</feature_max_val>
+              </total_area_def>
+              <nr_objects_def classname="nr_objects">
+                <feature_used>no</feature_used>
+                <feature_min_val>0</feature_min_val>
+                <feature_max_val>10</feature_max_val>
+              </nr_objects_def>
+            </image_criteria_list_def>
+          </criteria_list_def>
+        </model>
+      </model_list>
+      <io_lines_list islist="yes">
+        <io_line classname="io_line">
+          <io_line_id>4</io_line_id>
+          <signal_mode>signal_static</signal_mode>
+          <signal_static_def classname="signal_static" />
+          <signal_pulsed_def classname="signal_pulsed">
+            <pulse_length_ms>100</pulse_length_ms>
+          </signal_pulsed_def>
+          <is_action_editable>yes</is_action_editable>
+          <output_action_io_line>action_modelCombinationList</output_action_io_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>5</modelId>
+                <min>1</min>
+                <max>500</max>
+                <image_criteria_model>no</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </io_line>
+        <io_line classname="io_line">
+          <io_line_id>5</io_line_id>
+          <signal_mode>signal_static</signal_mode>
+          <signal_static_def classname="signal_static" />
+          <signal_pulsed_def classname="signal_pulsed">
+            <pulse_length_ms>100</pulse_length_ms>
+          </signal_pulsed_def>
+          <is_action_editable>yes</is_action_editable>
+          <output_action_io_line>action_modelCombinationList</output_action_io_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>3</modelId>
+                <min>1</min>
+                <max>500</max>
+                <image_criteria_model>no</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </io_line>
+        <io_line classname="io_line">
+          <io_line_id>6</io_line_id>
+          <signal_mode>signal_static</signal_mode>
+          <signal_static_def classname="signal_static" />
+          <signal_pulsed_def classname="signal_pulsed">
+            <pulse_length_ms>100</pulse_length_ms>
+          </signal_pulsed_def>
+          <is_action_editable>yes</is_action_editable>
+          <output_action_io_line>action_modelCombinationList</output_action_io_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>4</modelId>
+                <min>1</min>
+                <max>500</max>
+                <image_criteria_model>no</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </io_line>
+        <io_line classname="io_line">
+          <io_line_id>7</io_line_id>
+          <signal_mode>signal_static</signal_mode>
+          <signal_static_def classname="signal_static" />
+          <signal_pulsed_def classname="signal_pulsed">
+            <pulse_length_ms>100</pulse_length_ms>
+          </signal_pulsed_def>
+          <is_action_editable>yes</is_action_editable>
+          <output_action_io_line>action_modelCombinationList</output_action_io_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>500</max>
+                <image_criteria_model>no</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </io_line>
+        <io_line classname="io_line">
+          <io_line_id>8</io_line_id>
+          <signal_mode>signal_static</signal_mode>
+          <signal_static_def classname="signal_static" />
+          <signal_pulsed_def classname="signal_pulsed">
+            <pulse_length_ms>100</pulse_length_ms>
+          </signal_pulsed_def>
+          <is_action_editable>yes</is_action_editable>
+          <output_action_io_line>action_modelCombinationList</output_action_io_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>2</modelId>
+                <min>1</min>
+                <max>500</max>
+                <image_criteria_model>no</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </io_line>
+      </io_lines_list>
+      <virtual_lines_list islist="yes">
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>9</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model />
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>10</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>2</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model />
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>11</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>3</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model />
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>12</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>4</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model />
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>13</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>5</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model />
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>14</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>6</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model />
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>15</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>7</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model />
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>16</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>8</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model />
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>17</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>9</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>18</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>10</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>19</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>11</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>20</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>12</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>21</virtual_line_id>
+          <name>name</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>-1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>13</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>22</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>23</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>24</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>25</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>26</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>27</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>28</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>29</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>30</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>31</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>32</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>33</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>34</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+        <virtual_line classname="virtual_line">
+          <virtual_line_id>35</virtual_line_id>
+          <name>Vline</name>
+          <output_action_virtual_line>action_empty</output_action_virtual_line>
+          <action_readyForTrigger_def classname="action_readyForTrigger" />
+          <action_evaluationCompleted_def classname="action_evaluationCompleted" />
+          <action_externalApplicationSwitchCompleted_def classname="action_externalApplicationSwitchCompleted" />
+          <action_objectsOfModel_def classname="action_objectsOfModel">
+            <model_id>1</model_id>
+            <bit>0</bit>
+          </action_objectsOfModel_def>
+          <action_modelCombinationList_def classname="action_modelCombinationList">
+            <modelCombination_list islist="yes">
+              <modelCombination classname="modelCombination">
+                <logic>none</logic>
+                <modelId>1</modelId>
+                <min>1</min>
+                <max>1</max>
+                <image_criteria_model>yes</image_criteria_model>
+              </modelCombination>
+            </modelCombination_list>
+          </action_modelCombinationList_def>
+          <action_allModelsFound_def classname="action_allModelsFound" />
+          <action_noModelsFound_def classname="action_noModelsFound" />
+        </virtual_line>
+      </virtual_lines_list>
+      <results_over_pcic_active>on</results_over_pcic_active>
+      <results_over_pcic_content_active>off</results_over_pcic_content_active>
+      <pcic_format_mode>user_defined</pcic_format_mode>
+      <pcic_image_format>jpg</pcic_image_format>
+      <pcic_append_image>off</pcic_append_image>
+      <pcic_format islist="yes">
+        <pcic_element_free_text classname="pcic_element_free_text">
+          <pcic_element_free_text>start</pcic_element_free_text>
+        </pcic_element_free_text>
+        <pcic_element_io_status classname="pcic_element_io_status">
+          <binary_daten_format>byte_expanded</binary_daten_format>
+        </pcic_element_io_status>
+        <pcic_element_free_text classname="pcic_element_free_text">
+          <pcic_element_free_text>stop</pcic_element_free_text>
+        </pcic_element_free_text>
+        <pcic_element_free_text classname="pcic_element_free_text">
+          <pcic_element_free_text>auswertezeit:</pcic_element_free_text>
+        </pcic_element_free_text>
+        <pcic_element_decoding_time_ms classname="pcic_element_decoding_time_ms">
+          <number_data_format classname="pcic_element_number">
+            <pcic_number_format>ASCII</pcic_number_format>
+            <pcic_number_endianess>big_endian</pcic_number_endianess>
+            <pcic_number_scale>1000</pcic_number_scale>
+            <pcic_number_offset>0</pcic_number_offset>
+            <pcic_number_size>one_byte</pcic_number_size>
+            <pcic_number_width>4</pcic_number_width>
+            <pcic_number_width_fill>\x20</pcic_number_width_fill>
+            <pcic_number_precision>0</pcic_number_precision>
+            <pcic_number_display_format>fixed</pcic_number_display_format>
+            <pcic_number_alignment>right</pcic_number_alignment>
+            <pcic_number_decimal_separator>,</pcic_number_decimal_separator>
+          </number_data_format>
+        </pcic_element_decoding_time_ms>
+        <pcic_element_free_text classname="pcic_element_free_text">
+          <pcic_element_free_text>ms</pcic_element_free_text>
+        </pcic_element_free_text>
+      </pcic_format>
+      <display_output classname="display_mode_io">
+        <display_source_pin>9</display_source_pin>
+        <display_content_ok>total_nr_objs</display_content_ok>
+        <display_content_nok>total_nr_objs</display_content_nok>
+      </display_output>
+      <images_in_app islist="yes" />
+    </cApplication>
+  </sensor_application_list>
+</sensor>
