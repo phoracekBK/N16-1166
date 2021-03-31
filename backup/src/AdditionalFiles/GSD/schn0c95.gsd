@@ -1,0 +1,253 @@
+;===========================================================
+; GSD File for  Schneider Electric - Altivar 32
+; Groupe SCHNEIDER
+; Copyright (C) SCHNEIDER 2009
+;
+; Date  : 17/03/2010
+; File  : SCHN0C95.gsd
+;===========================================================
+;
+#Profibus_DP
+
+GSD_Revision        = 5
+
+; Device identification
+Vendor_Name         = "Schneider Electric"
+Model_Name          = "ATV32"
+Revision            = "V1.05"
+Ident_Number        = 0x0C95
+Protocol_Ident      = 0                      ; DP protocol
+Station_Type        = 0                      ; Slave device
+FMS_supp            = 0                      ; FMS not supported
+Slave_Family        = 1@Schneider Electric   ; Drive (Schneider Electric)
+Hardware_Release    = "Version 1.00"
+Software_Release    = "Version 1.05"
+
+;Used bitmap
+Bitmap_Device = "ATV32"
+
+; Supported hardware features
+Redundancy          = 0                ; not supported
+Repeater_Ctrl_Sig   = 2                ; TTL
+24V_Pins            = 0                ; not connected
+Implementation_Type = "NP30"
+
+; Supported DP features
+Freeze_Mode_supp    = 1                ; supported
+Sync_Mode_supp      = 1                ; supported
+Auto_Baud_supp      = 1                ; supported
+Set_Slave_Add_supp  = 0                ; not supported
+Fail_Safe           = 1                ; supported
+
+; Supported baudrates
+9.6_supp            = 1
+19.2_supp           = 1
+45.45_supp          = 1
+93.75_supp          = 1
+187.5_supp          = 1
+500_supp            = 1
+1.5M_supp           = 1
+3M_supp             = 1
+6M_supp             = 1
+12M_supp            = 1
+
+; Maximum responder time for supported baudrates
+MaxTsdr_9.6         = 15
+MaxTsdr_19.2        = 15
+MaxTsdr_45.45       = 15
+MaxTsdr_93.75       = 15
+MaxTsdr_187.5       = 15
+MaxTsdr_500         = 15
+MaxTsdr_1.5M        = 25
+MaxTsdr_3M          = 50
+MaxTsdr_6M          = 100
+MaxTsdr_12M         = 200
+
+; Maximum polling frequency
+Min_Slave_Intervall = 1                ; 100 us
+
+; I/O related keywords
+Modular_Station     = 1                ; modular
+Modul_Offset        = 0
+Max_Module          = 1
+Max_Input_Len       = 20
+Max_Output_Len      = 20
+Max_Data_Len        = 40
+
+; Diagnostic related keywords
+Max_Diag_Data_Len   = 16
+
+; DPV1 related keywords
+DPV1_Slave              = 1
+Check_Cfg_Mode          = 0
+
+C1_Read_Write_supp      = 1
+C1_Max_Data_Len         = 240
+C1_Response_Timeout     = 10           ; 100 ms
+
+C2_Read_Write_supp      = 1
+C2_Max_Data_Len         = 240
+C2_Response_Timeout     = 10           ; 100 ms
+C2_Max_Count_Channels   = 1
+Max_Initiate_PDU_Length = 52
+
+Ident_Maintenance_supp  = 1
+
+; Parameterization related keywords
+
+; Parameter text station
+PrmText = 1
+Text(0) = "Disabled"
+Text(1) = "Enabled"
+EndPrmText
+
+; Parameter definitions
+ExtUserPrmData = 1 "Extended diagnostics"
+Unsigned8 0 0-255
+Prm_Text_Ref = 1
+EndExtUserPrmData
+
+ExtUserPrmData = 9 "OCA1"
+Unsigned16 8501 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 10 "OCA2"
+Unsigned16 8602 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 11 "OCA3"
+Unsigned16 0 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 12 "OCA4"
+Unsigned16 0 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 13 "OCA5"
+Unsigned16 0 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 14 "OCA6"
+Unsigned16 0 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 15 "OMA1"
+Unsigned16 3201 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 16 "OMA2"
+Unsigned16 8604 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 17 "OMA3"
+Unsigned16 0 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 18 "OMA4"
+Unsigned16 0 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 19 "OMA5"
+Unsigned16 0 0-65535
+EndExtUserPrmData
+
+ExtUserPrmData = 20 "OMA6"
+Unsigned16 0 0-65535
+EndExtUserPrmData
+
+Max_User_Prm_Data_Len   = 45
+Ext_User_Prm_Data_Const(0) = 0xC0,0x00,0x00, 0x00, 0x00, 0x00
+Ext_User_Prm_Data_Ref(3)   = 1
+
+; Definition of modules
+Module = "Telegram 1 (PROFIdrive)" 0xC3, 0xC1, 0xC1, 0xFD, 0x00, 0x01;
+Ext_Module_Prm_Data_len = 15
+Ext_User_Prm_Data_Const(0) = 0x01, 0x00, 0x01,                                \
+                             0x03, 0x21, 0x35,                                \
+                             0x03, 0x21, 0x36,                                \
+                             0x05, 0x0C, 0x81,                                \
+                             0x05, 0x0C, 0x82
+1
+EndModule;
+
+Module = "Telegram 100 (4PKW/2PZD)" 0xF3, 0xF1;
+Ext_Module_Prm_Data_len = 15
+Ext_User_Prm_Data_Const(0) = 0x01, 0x00, 0x64,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00
+
+Ext_User_Prm_Data_Ref(4)=9   ;OCA1
+Ext_User_Prm_Data_Ref(7)=10  ;OCA2
+Ext_User_Prm_Data_Ref(10)=15 ;OMA1
+Ext_User_Prm_Data_Ref(13)=16 ;OMA2
+2
+EndModule;
+
+Module = "Telegram 101 (4PKW/6PZD)" 0xF3, 0xF5;
+Ext_Module_Prm_Data_len = 39
+Ext_User_Prm_Data_Const(0) = 0x01, 0x00, 0x65,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00
+
+Ext_User_Prm_Data_Ref(4)=9   ;OCA1
+Ext_User_Prm_Data_Ref(7)=10  ;OCA2
+Ext_User_Prm_Data_Ref(10)=11 ;OCA3
+Ext_User_Prm_Data_Ref(13)=12 ;OCA4
+Ext_User_Prm_Data_Ref(16)=13 ;OCA5
+Ext_User_Prm_Data_Ref(19)=14 ;OCA6
+Ext_User_Prm_Data_Ref(22)=15 ;OMA1
+Ext_User_Prm_Data_Ref(25)=16 ;OMA2
+Ext_User_Prm_Data_Ref(28)=17 ;OMA3
+Ext_User_Prm_Data_Ref(31)=18 ;OMA4
+Ext_User_Prm_Data_Ref(34)=19 ;OMA5
+Ext_User_Prm_Data_Ref(37)=20 ;OMA6
+3
+EndModule;
+
+Module = "Telegram 102 (6PZD)" 0xF5;
+Ext_Module_Prm_Data_len = 39
+Ext_User_Prm_Data_Const(0) = 0x01, 0x00, 0x66,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x03, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00,                                \
+                             0x05, 0x00, 0x00
+
+Ext_User_Prm_Data_Ref(4)=9   ;OCA1
+Ext_User_Prm_Data_Ref(7)=10  ;OCA2
+Ext_User_Prm_Data_Ref(10)=11 ;OCA3
+Ext_User_Prm_Data_Ref(13)=12 ;OCA4
+Ext_User_Prm_Data_Ref(16)=13 ;OCA5
+Ext_User_Prm_Data_Ref(19)=14 ;OCA6
+Ext_User_Prm_Data_Ref(22)=15 ;OMA1
+Ext_User_Prm_Data_Ref(25)=16 ;OMA2
+Ext_User_Prm_Data_Ref(28)=17 ;OMA3
+Ext_User_Prm_Data_Ref(31)=18 ;OMA4
+Ext_User_Prm_Data_Ref(34)=19 ;OMA5
+Ext_User_Prm_Data_Ref(37)=20 ;OMA6
+4
+EndModule;
+
+
+
+
+
